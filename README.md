@@ -8,8 +8,8 @@ A sci-fi rat experiment simulator featuring crypto-linked compound injections an
 
 ## 🔗 Links
 
-- [Website](https://mus.io)
-- [Documentation](https://docs.mus.io)
+- [Website](https://musprotocol.com)
+- [Documentation](https://docs.musprotocol.io)
 - [Twitter](https://twitter.com/MusProtocol)
 - [Dev Profil](https://github.com/juliemich88)
 
