@@ -97,7 +97,7 @@ export default function TournamentBracket() {
               <div className="text-purple-400 text-sm">{COMPOUNDS[match.rat1.compound]?.name}</div>
             </div>
             <div className="text-center text-purple-500 text-sm font-mono bg-black/40 p-2 rounded border border-purple-700/20">
-              WAGERED: {getRatWagers(match.rat1.id)} $RAT
+              WAGERED: {getRatWagers(match.rat1.id)} $MUS
             </div>
           </div>
         ) : (
@@ -123,7 +123,7 @@ export default function TournamentBracket() {
               <div className="text-purple-400 text-sm">{COMPOUNDS[match.rat2.compound]?.name}</div>
             </div>
             <div className="text-center text-purple-500 text-sm font-mono bg-black/40 p-2 rounded border border-purple-700/20">
-              WAGERED: {getRatWagers(match.rat2.id)} $RAT
+              WAGERED: {getRatWagers(match.rat2.id)} $MUS
             </div>
           </div>
         ) : (
@@ -163,7 +163,7 @@ export default function TournamentBracket() {
                             shadow-[0_0_30px_rgba(88,28,135,0.2)]">
                 <div className="text-center">
                   <h2 className="text-xl font-mono text-purple-400 mb-2">TOTAL WAGERED</h2>
-                  <div className="text-3xl font-bold text-purple-500">{totalWagered} $RAT</div>
+                  <div className="text-3xl font-bold text-purple-500">{totalWagered} $MUS</div>
                 </div>
               </div>
 

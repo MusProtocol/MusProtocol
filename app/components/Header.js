@@ -89,7 +89,7 @@ export default function Header() {
 
             {/* GitBook Link */}
             <a
-              href="https://docs.mus.io/"
+              href="https://docs.musprotocol.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 hover:bg-purple-900/20 rounded"

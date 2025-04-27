@@ -18,12 +18,12 @@ export default function WalletWagers() {
         {Object.entries(walletWagers).map(([ratId, amount]) => (
           <div key={ratId} className="flex justify-between text-purple-300 font-mono">
             <span>RAT_{Number(ratId) + 1}</span>
-            <span>{amount} $RAT</span>
+            <span>{amount} $MUS</span>
           </div>
         ))}
         <div className="pt-2 border-t border-purple-700/20 flex justify-between text-purple-400 font-mono">
           <span>TOTAL</span>
-          <span>{total} $RAT</span>
+          <span>{total} $MUS</span>
         </div>
       </div>
     </div>
